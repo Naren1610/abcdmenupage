@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Biryanis & Breads - ABCD Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body class="page-transition">
+    <canvas id="wok-hay-canvas"></canvas>
+
+    <div id="app" class="app-container">
+        <main id="view-menu" class="view active">
+            <header class="menu-header">
+                <a href="index.html" class="btn-icon" aria-label="Back to menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                </a>
+                <h2 id="menu-title">Biryanis & Breads</h2>
+                <div style="width: 24px"></div>
+            </header>
+            <div class="menu-content">
+                
+<section class="menu-section">
+    <h3 class="menu-category-title">Hyderabadi Dum Biryani</h3>
+    <p class="menu-category-subtitle">The Royal Tradition</p>
+    <div class="menu-grid">
+
+        <article class="menu-item-card scroll-reveal">
+            <div class="item-header">
+                <div class="item-name-group">
+                    <h4 class="item-name">Hyderabadi Chicken Dum Biryani</h4>
+                </div>
+                <div class="item-leader"></div>
+                <span class="item-price">17.59</span>
+            </div>
+            <p class="item-desc">Fragrant basmati rice layered with marinated chicken, slow-cooked in the traditional Dum style with exotic herbs and saffron.</p>
+        </article>
+        <article class="menu-item-card scroll-reveal">
+            <div class="item-header">
+                <div class="item-name-group">
+                    <h4 class="item-name">Mutton Dum Biryani</h4>
+                </div>
+                <div class="item-leader"></div>
+                <span class="item-price">19.59</span>
+            </div>
+            <p class="item-desc">Tender mutton pieces marinated overnight in yogurt and spices, layered with basmati rice and slow-cooked to perfection.</p>
+        </article>
+        <article class="menu-item-card scroll-reveal">
+            <div class="item-header">
+                <div class="item-name-group">
+                    <span class="indicator veg" title="Vegetarian">V</span> <h4 class="item-name">Veg Dum Biryani</h4>
+                </div>
+                <div class="item-leader"></div>
+                <span class="item-price">15.59</span>
+            </div>
+            <p class="item-desc">A medley of fresh vegetables and paneer layered with aromatic basmati rice and cooked on dum with subtle spices.</p>
+        </article>
+    </div>
+</section>
+
+<section class="menu-section">
+    <h3 class="menu-category-title">Artisanal Breads</h3>
+    <div class="menu-grid">
+
+        <article class="menu-item-card scroll-reveal">
+            <div class="item-header">
+                <div class="item-name-group">
+                    <span class="indicator veg" title="Vegetarian">V</span> <h4 class="item-name">Plain Naan</h4>
+                </div>
+                <div class="item-leader"></div>
+                <span class="item-price">3.59</span>
+            </div>
+            <p class="item-desc">Fresh and soft clay oven baked bread.</p>
+        </article>
+        <article class="menu-item-card scroll-reveal">
+            <div class="item-header">
+                <div class="item-name-group">
+                    <span class="indicator veg" title="Vegetarian">V</span> <h4 class="item-name">Handmade Tandoori Roti</h4>
+                </div>
+                <div class="item-leader"></div>
+                <span class="item-price">4.59</span>
+            </div>
+            <p class="item-desc">Whole wheat bread baked in tandoor.</p>
+        </article>
+        <article class="menu-item-card scroll-reveal">
+            <div class="item-header">
+                <div class="item-name-group">
+                    <span class="indicator veg" title="Vegetarian">V</span> <h4 class="item-name">Butter Naan</h4>
+                </div>
+                <div class="item-leader"></div>
+                <span class="item-price">4.59</span>
+            </div>
+            <p class="item-desc">Layered flatbread slathered in butter.</p>
+        </article>
+        <article class="menu-item-card scroll-reveal">
+            <div class="item-header">
+                <div class="item-name-group">
+                    <span class="indicator veg" title="Vegetarian">V</span> <h4 class="item-name">Laccha Paratha</h4>
+                </div>
+                <div class="item-leader"></div>
+                <span class="item-price">5.59</span>
+            </div>
+            <p class="item-desc">Flaky, multi-layered whole wheat bread.</p>
+        </article>
+        <article class="menu-item-card scroll-reveal">
+            <div class="item-header">
+                <div class="item-name-group">
+                    <span class="indicator veg" title="Vegetarian">V</span> <h4 class="item-name">Garlic Naan</h4>
+                </div>
+                <div class="item-leader"></div>
+                <span class="item-price">4.59</span>
+            </div>
+            <p class="item-desc">Infused with chopped garlic and butter.</p>
+        </article>
+        <article class="menu-item-card scroll-reveal">
+            <div class="item-header">
+                <div class="item-name-group">
+                    <span class="indicator veg" title="Vegetarian">V</span> <h4 class="item-name">Paneer Paratha</h4>
+                </div>
+                <div class="item-leader"></div>
+                <span class="item-price">5.59</span>
+            </div>
+            <p class="item-desc">Stuffed with spiced Indian cottage cheese.</p>
+        </article>
+        <article class="menu-item-card scroll-reveal">
+            <div class="item-header">
+                <div class="item-name-group">
+                    <span class="indicator veg" title="Vegetarian">V</span> <span class="indicator spicy" title="Spicy">S</span> <h4 class="item-name">Chilly Garlic Naan</h4>
+                </div>
+                <div class="item-leader"></div>
+                <span class="item-price">4.59</span>
+            </div>
+            <p class="item-desc">Topped with spicy green chilies and garlic.</p>
+        </article>
+        <article class="menu-item-card scroll-reveal">
+            <div class="item-header">
+                <div class="item-name-group">
+                    <span class="indicator veg" title="Vegetarian">V</span> <h4 class="item-name">Cheese Naan</h4>
+                </div>
+                <div class="item-leader"></div>
+                <span class="item-price">5.59</span>
+            </div>
+            <p class="item-desc">Stuffed generously with melted cheese.</p>
+        </article>
+        <article class="menu-item-card scroll-reveal">
+            <div class="item-header">
+                <div class="item-name-group">
+                    <span class="indicator veg" title="Vegetarian">V</span> <h4 class="item-name">Bhature</h4>
+                </div>
+                <div class="item-leader"></div>
+                <span class="item-price">4.59</span>
+            </div>
+            <p class="item-desc">Fluffy deep-fried leavened sourdough bread.</p>
+        </article>
+    </div>
+</section>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="js/animations.min.js" defer></script>
+    <script src="js/router.min.js" defer></script>
+</body>
+</html>

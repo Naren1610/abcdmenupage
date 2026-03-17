@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ABCD Restaurant Menu</title>
+    <!-- Premium Google Fonts for Restaurant Feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- Main Stylesheet (Minified) -->
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+
+<body class="page-transition">
+    <!-- Cinematic Wok Hay Background -->
+    <canvas id="wok-hay-canvas"></canvas>
+
+    <!-- App Container -->
+    <div id="app" class="app-container">
+
+        <!-- Landing Page (Splash Screen) -->
+        <main id="view-landing" class="view active">
+            <div class="landing-content">
+                <div class="entrance-action">
+                    <p class="instruction">Choose an alphabet to begin your culinary journey.</p>
+                </div>
+
+                <div class="brand-container">
+                    <nav class="abcd-navigation">
+                        <button class="abcd-letter" data-url="appetizers.html">
+                            A
+                            <div class="spark-layer"></div>
+                            <div class="spark-layer"></div>
+                            <div class="spark-layer"></div>
+                        </button>
+                        <button class="abcd-letter" data-url="biryani.html">
+                            B
+                            <div class="spark-layer"></div>
+                            <div class="spark-layer"></div>
+                            <div class="spark-layer"></div>
+                        </button>
+                        <button class="abcd-letter" data-url="curries.html">
+                            C
+                            <div class="spark-layer"></div>
+                            <div class="spark-layer"></div>
+                            <div class="spark-layer"></div>
+                        </button>
+                        <button class="abcd-letter" data-url="desserts.html" disabled>
+                            D
+                            <div class="spark-layer"></div>
+                            <div class="spark-layer"></div>
+                            <div class="spark-layer"></div>
+                        </button>
+                    </nav>
+                    <p class="brand-subtitle">"Rooted in rich culinary traditions of the Sub-Continent and crafted for
+                        Global audience."</p>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <!-- Scripts (Minified and Deferred) -->
+    <script src="js/animations.min.js" defer></script>
+    <script src="js/router.min.js" defer></script>
+</body>
+
+</html>
