@@ -23,16 +23,16 @@ appetizers = """
     <p class="menu-category-subtitle">Flame-charred legacies</p>
     <div class="menu-grid">
 """
-appetizers += mk_item("Maharaja Prawns", "24.59", "Tiger prawns infused with citrus and House special Tandoori essence, kissed by fire for a perfect balance of heat, aroma, and oceanic sweetness.")
-appetizers += mk_item("Pesto Shrimp Emeraldo", "25.59", "Succulent Jumbo marinated in a vibrant basil pesto, kissed by the tandoor flame for a smoky, aromatic finish.")
-appetizers += mk_item("Royal Seekh of Kheema", "18.59", "Hand-crafted lamb skewers blended with our heirloom spices, cooked over glowing flames to create a delicately smoky, melt-in-mouth experience.")
-appetizers += mk_item("Classic Tandoori Chicken", "19.59", "Succulent bone-in chicken infused with a secret heritage spice blend, roasted to tender perfection, with a smoky aroma that lingers in every bite.")
+appetizers += mk_item("Maharaja Prawns", "21.59", "Tiger prawns infused with citrus and House special Tandoori essence, kissed by fire for a perfect balance of heat, aroma, and oceanic sweetness.")
+appetizers += mk_item("Pesto Shrimp Emeraldo", "23.59", "Succulent Jumbo marinated in a vibrant basil pesto, kissed by the tandoor flame for a smoky, aromatic finish.")
+appetizers += mk_item("Royal Seekh of Kheema", "19.59", "Hand-crafted lamb skewers blended with our heirloom spices, cooked over glowing flames to create a delicately smoky, melt-in-mouth experience.")
+appetizers += mk_item("Classic Tandoori Chicken", "18.59", "Succulent bone-in chicken infused with a secret heritage spice blend, roasted to tender perfection, with a smoky aroma that lingers in every bite.")
 appetizers += mk_item("Crimson Kashmiri Murgh Tikka", "18.59", "Chicken marinated for 24 hours in a rich Kashmiri chili-spice symphony, then flame-seared for a fiery, jewel-toned finish.")
-appetizers += mk_item("Malai Silk Murgh Kebab", "18.59", "Velvety morsels of chicken enriched with cream, green chili, and cardamom, kissed with subtle smoke, melting on the palate with every bite.")
+appetizers += mk_item("Malai Silk Murgh Kebab", "19.59", "Velvety morsels of chicken enriched with cream, green chili, and cardamom, kissed with subtle smoke, melting on the palate with every bite.")
 appetizers += mk_item("Achaari Charred Wings", "18.59", "Orchard-raised wings marinated in bold pickling spices, crisped over embers to deliver a tangy, smoky, and deeply flavorful bite.", spicy=True)
-appetizers += mk_item("Artisan Ember Paneer", "15.59", "House-pressed paneer steaks enriched with a medley of spices, charred to perfection with a subtle smoky finish, paired with roasted bell peppers.", veg=True)
-appetizers += mk_item("Verdant Hariyali Paneer", "16.59", "Paneer enveloped in a vibrant blend of fresh mint, spinach, and toasted spices, offering a bright, herbaceous, and indulgent flavor experience.", veg=True)
-appetizers += mk_item("Charred Soya Chaap", "16.59", "Tender batons of delhi waala Soya chaap warmly slept in in our house special marinade, and then slowly grilled & charred in tandoor to achieve a charred exterior and succulent bite.", veg=True)
+appetizers += mk_item("Artisan Ember Paneer", "17.59", "House-pressed paneer steaks enriched with a medley of spices, charred to perfection with a subtle smoky finish, paired with roasted bell peppers.", veg=True)
+appetizers += mk_item("Verdant Hariyali Paneer", "18.59", "Paneer enveloped in a vibrant blend of fresh mint, spinach, and toasted spices, offering a bright, herbaceous, and indulgent flavor experience.", veg=True)
+appetizers += mk_item("Charred Soya Chaap", "17.59", "Tender batons of delhi waala Soya chaap warmly slept in in our house special marinade, and then slowly grilled & charred in tandoor to achieve a charred exterior and succulent bite.", veg=True)
 appetizers += """
     </div>
 </section>
@@ -48,6 +48,7 @@ appetizers += mk_item("Garlic Naan", "4.59", "Infused with chopped garlic and bu
 appetizers += mk_item("Paneer Paratha", "5.59", "Stuffed with spiced Indian cottage cheese.", veg=True)
 appetizers += mk_item("Chilly Garlic Naan", "4.59", "Topped with spicy green chilies and garlic.", veg=True, spicy=True)
 appetizers += mk_item("Cheese Naan", "5.59", "Stuffed generously with melted cheese.", veg=True)
+appetizers += mk_item("Chilly Cheese Naan", "5.59", "Naan stuffed with spicy green chilies and melted cheese.", veg=True, spicy=True)
 appetizers += mk_item("Bhature", "4.59", "Fluffy deep-fried leavened sourdough bread.", veg=True)
 appetizers += """
     </div>
@@ -59,14 +60,15 @@ appetizers += """
 """
 appetizers += mk_item("Veg Manchurian", "14.59", "Crisp vegetable balls tossed in a mildly spicy soy-garlic sauce.", veg=True)
 appetizers += mk_item("Gobi Manchurian", "14.59", "Cauliflower florets fried and coated in tangy Indo-Chinese sauce.", veg=True)
-appetizers += mk_item("Chilli Paneer", "15.59", "Soft paneer cubes sautéed with capsicum, onion, and tangy chili sauce.", veg=True, spicy=True)
-appetizers += mk_item("Honey Chilli Potato", "15.59", "Crispy potato fingers tossed in sweet and spicy glaze.", veg=True)
+appetizers += mk_item("Chilli Paneer", "15.99", "Soft paneer cubes sautéed with capsicum, onion, and tangy chili sauce.", veg=True, spicy=True)
+appetizers += mk_item("Honey Chilli Potato", "15.99", "Crispy potato fingers tossed in sweet and spicy glaze.", veg=True)
 appetizers += mk_item("Hyderabadi Chicken 65", "16.59", "South-Indian style fried chicken with bold masala and curry leaf tempering.", spicy=True)
 appetizers += mk_item("Chilli Chicken", "16.59", "Juicy chicken pieces tossed with bell peppers and spicy Indo-Chinese sauce.", spicy=True)
-appetizers += mk_item("Chicken Majestic", "16.59", "Tender chicken cooked with garlic, chili, and light soy sauce.")
+appetizers += mk_item("Chicken Majestic", "17.59", "Tender chicken cooked with garlic, chili, and light soy sauce.")
+appetizers += mk_item("Chicken Lollipops (Wet)", "17.59", "Crispy chicken wings coated in a glossy, spicy sauce.")
 appetizers += mk_item("Drums of Heaven", "17.59", "Crispy chicken drumettes served with house-made honey-chili glaze.")
 appetizers += mk_item("Apollo Fish", "17.59", "Lightly fried fish in tangy sweet and sour sauce.")
-appetizers += mk_item("Dragon Chicken", "16.59", "Wok-tossed chicken with chili, garlic, and hint of sesame.", spicy=True)
+appetizers += mk_item("Dragon Chicken", "16.99", "Wok-tossed chicken with chili, garlic, and hint of sesame.", spicy=True)
 appetizers += """
     </div>
 </section>
@@ -98,7 +100,7 @@ appetizers += mk_item("Mangalorean Pompano Fry", "22.59", "Pompano bathed in a b
 appetizers += mk_item("Amritsari Fried Fish", "18.99", "Iconic Street delicacy! Fish fillets marinated in carom and gram flour-based batter with our secret essence.")
 appetizers += mk_item("Aaloo Tikki", "12.99", "Golden fried Potato patties infused with a twist of our aromatic house made spices, crisp on the outside and tender within.", veg=True)
 appetizers += mk_item("Hyderabadi Royal Haleem", "18.59", "Basss… Khaa ke dekho! A royal delicacy slow-cooked to perfection.")
-appetizers += mk_item("Marag", "19.59", "Shaan bolthe hum isko! Exquisite, rich, and flavorful soup.")
+appetizers += mk_item("Marag", "18.99", "Shaan bolthe hum isko! Exquisite, rich, and flavorful soup.")
 
 appetizers += """
     </div>
@@ -216,8 +218,8 @@ for title, html in [('appetizers', appetizers), ('curries', curries), ('biryani'
     with open(path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # replace the menu-placeholder with our generated html
-    content = re.sub(r'<div class="menu-placeholder">.*?</div>', html, content, flags=re.DOTALL)
+    # replace the menu-content with our generated html
+    content = re.sub(r'(<div class="menu-content">).*?(</div>\s*</main>)', r'\1\n' + html + r'\n\2', content, flags=re.DOTALL)
     
     with open(path, 'w', encoding='utf-8') as f:
         f.write(content)
