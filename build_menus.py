@@ -37,23 +37,6 @@ appetizers += """
     </div>
 </section>
 <section class="menu-section">
-    <h3 class="menu-category-title">Artisanal Breads</h3>
-    <div class="menu-grid">
-"""
-appetizers += mk_item("Plain Naan", "3.59", "Fresh and soft clay oven baked bread.", veg=True)
-appetizers += mk_item("Handmade Tandoori Roti", "4.59", "Whole wheat bread baked in tandoor.", veg=True)
-appetizers += mk_item("Butter Naan", "4.59", "Layered flatbread slathered in butter.", veg=True)
-appetizers += mk_item("Laccha Paratha", "5.59", "Flaky, multi-layered whole wheat bread.", veg=True)
-appetizers += mk_item("Garlic Naan", "4.59", "Infused with chopped garlic and butter.", veg=True)
-appetizers += mk_item("Paneer Paratha", "5.59", "Stuffed with spiced Indian cottage cheese.", veg=True)
-appetizers += mk_item("Chilly Garlic Naan", "4.59", "Topped with spicy green chilies and garlic.", veg=True, spicy=True)
-appetizers += mk_item("Cheese Naan", "5.59", "Stuffed generously with melted cheese.", veg=True)
-appetizers += mk_item("Chilly Cheese Naan", "5.59", "Naan stuffed with spicy green chilies and melted cheese.", veg=True, spicy=True)
-appetizers += mk_item("Bhature", "4.59", "Fluffy deep-fried leavened sourdough bread.", veg=True)
-appetizers += """
-    </div>
-</section>
-<section class="menu-section">
     <h3 class="menu-category-title">Dragon & Spice</h3>
     <p class="menu-category-subtitle">A vibrant journey blending the bold spices of India with wok-fired flavors</p>
     <div class="menu-grid">
@@ -179,6 +162,23 @@ biryani = """
 biryani += mk_item("Hyderabadi Chicken Dum Biryani", "17.59", "Fragrant basmati rice layered with marinated chicken, slow-cooked in the traditional Dum style with exotic herbs and saffron.")
 biryani += mk_item("Mutton Dum Biryani", "19.59", "Tender mutton pieces marinated overnight in yogurt and spices, layered with basmati rice and slow-cooked to perfection.")
 biryani += mk_item("Veg Dum Biryani", "15.59", "A medley of fresh vegetables and paneer layered with aromatic basmati rice and cooked on dum with subtle spices.", veg=True)
+biryani += """
+    </div>
+</section>
+<section class="menu-section">
+    <h3 class="menu-category-title">Artisanal Breads</h3>
+    <div class="menu-grid">
+"""
+biryani += mk_item("Plain Naan", "3.59", "Fresh and soft clay oven baked bread.", veg=True)
+biryani += mk_item("Handmade Tandoori Roti", "4.59", "Whole wheat bread baked in tandoor.", veg=True)
+biryani += mk_item("Butter Naan", "4.59", "Layered flatbread slathered in butter.", veg=True)
+biryani += mk_item("Laccha Paratha", "5.59", "Flaky, multi-layered whole wheat bread.", veg=True)
+biryani += mk_item("Garlic Naan", "4.59", "Infused with chopped garlic and butter.", veg=True)
+biryani += mk_item("Paneer Paratha", "5.59", "Stuffed with spiced Indian cottage cheese.", veg=True)
+biryani += mk_item("Chilly Garlic Naan", "4.59", "Topped with spicy green chilies and garlic.", veg=True, spicy=True)
+biryani += mk_item("Cheese Naan", "5.59", "Stuffed generously with melted cheese.", veg=True)
+biryani += mk_item("Chilly Cheese Naan", "5.59", "Naan stuffed with spicy green chilies and melted cheese.", veg=True, spicy=True)
+biryani += mk_item("Bhature", "4.59", "Fluffy deep-fried leavened sourdough bread.", veg=True)
 biryani += """
     </div>
 </section>
