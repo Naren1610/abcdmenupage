@@ -43,3 +43,16 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 400);
     }
 });
+
+// 4. Handle Bfcache (Back/Forward Cache) for browser back button
+window.addEventListener('pageshow', (event) => {
+    // If the page was loaded from cache (e.g. by hitting back), reset the transition state
+    if (event.persisted || document.body.classList.contains('page-exiting')) {
+        document.body.classList.remove('page-exiting');
+        
+        // Small delay to ensure the DOM is ready to paint the transition back in
+        setTimeout(() => {
+            document.body.classList.add('page-loaded');
+        }, 10);
+    }
+});

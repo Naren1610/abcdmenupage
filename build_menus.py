@@ -39,10 +39,23 @@ appetizers += """
 <section class="menu-section">
     <h3 class="menu-category-title">Dragon & Spice</h3>
     <p class="menu-category-subtitle">A vibrant journey blending the bold spices of India with the wok-fired flavors of Chinese</p>
-    <div class="menu-grid">
+    
+    <div style="text-align: center; margin-top: 10px; margin-bottom: 25px;">
+        <h4 style="font-family: var(--font-heading); font-size: 1.4rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px;">Soups</h4>
+        <p class="item-desc" style="font-size: 0.9em; font-style: italic; color: #a19f9d;">Add on: Custom House Veggies (+1) / Egg (+2) / Chicken (+3) / Prawn (+4) / Mixed (+5)</p>
+    </div>
+    <div class="menu-grid" style="margin-bottom: 40px;">
 """
 appetizers += mk_item("Sweet Corn Soup", "8.99", "Tiger prawns infused with citrus and House special Tandoori essence, kissed by fire for a perfect balance of heat, aroma, and oceanic sweetness.")
 appetizers += mk_item("Tom Yum Soup", "9.99", "Succulent Jumbo Prawns marinated in a vibrant basil pesto, kissed by the tandoor flame for a smoky, aromatic finish.")
+appetizers += """
+    </div>
+    
+    <div style="text-align: center; margin-bottom: 25px;">
+        <h4 style="font-family: var(--font-heading); font-size: 1.4rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 2px;">Starters</h4>
+    </div>
+    <div class="menu-grid">
+"""
 appetizers += mk_item("Veg Manchurian", "14.59", "Crisp vegetable balls tossed in a mildly spicy soy-garlic sauce.", veg=True)
 appetizers += mk_item("Gobi Manchurian", "14.59", "Cauliflower florets fried and coated in tangy Indo-Chinese sauce.", veg=True)
 appetizers += mk_item("Chilli Paneer", "15.99", "Soft paneer cubes sautéed with capsicum, onion, and tangy chili sauce.", veg=True, spicy=True)
