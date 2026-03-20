@@ -24,8 +24,8 @@ appetizers = """
     <div class="menu-grid">
 """
 appetizers += mk_item("Maharaja Prawns", "21.59", "Tiger prawns infused with citrus and House special Tandoori essence, kissed by fire for a perfect balance of heat, aroma, and oceanic sweetness.")
-appetizers += mk_item("Pesto Shrimp Emeraldo", "23.59", "Succulent Jumbo marinated in a vibrant basil pesto, kissed by the tandoor flame for a smoky, aromatic finish.")
-appetizers += mk_item("Royal Seekh of Kheema", "19.59", "Hand-crafted lamb skewers blended with our heirloom spices, cooked over glowing flames to create a delicately smoky, melt-in-mouth experience.")
+appetizers += mk_item("Pesto Shrimp Emeraldo", "23.59", "Succulent Jumbo Prawns marinated in a vibrant basil pesto, kissed by the tandoor flame for a smoky, aromatic finish.")
+appetizers += mk_item("Royal Seekh of Kheema", "19.59", "Hand-crafted mutton skewers blended with our heirloom spices, cooked over glowing flames to create a delicately smoky, melt-in-mouth experience.")
 appetizers += mk_item("Classic Tandoori Chicken", "18.59", "Succulent bone-in chicken infused with a secret heritage spice blend, roasted to tender perfection, with a smoky aroma that lingers in every bite.")
 appetizers += mk_item("Crimson Kashmiri Murgh Tikka", "18.59", "Chicken marinated for 24 hours in a rich Kashmiri chili-spice symphony, then flame-seared for a fiery, jewel-toned finish.")
 appetizers += mk_item("Malai Silk Murgh Kebab", "19.59", "Velvety morsels of chicken enriched with cream, green chili, and cardamom, kissed with subtle smoke, melting on the palate with every bite.")
@@ -90,12 +90,11 @@ curries += mk_item("Telangana Dhaavath Mutton Curry", price, "Rustic, slow-cooke
 curries += mk_item("Munakkaya Mutton", price, "Mutton and drumstick pods in a lightly spiced, hearty gravy, offering layered flavors and depth.")
 curries += mk_item("Mutton Vindaloo", price, "Tangy Goan-style curry with a gentle heat, balancing spices and vinegar notes for a bold yet refined taste.", spicy=True)
 curries += mk_item("Saag Gosht", price, "Succulent mutton slow-cooked with fresh spinach, delivering an earthy, aromatic, and tender curry.")
-curries += mk_item("Nilgiri Lamb Kofta", price, "Hand-rolled lamb dumplings in our signature spiced green herb sauce, delicate yet flavorful.")
+curries += mk_item("Nilgiri Mutton Kofta", price, "Hand-rolled mutton dumplings in our signature spiced green herb sauce, delicate yet flavorful.")
 curries += mk_item("Kheema Matar", "19.99", "Minced mutton cooked with peas in lightly spiced masala.")
 curries += mk_item("Kheema Mutti Curry", "19.99", "Home made kheema balls, served in our aromatic southern spiced sauce.")
 
 curries += mk_item("Goan Prawn Curry", "22.99", "Prawns simmered in coconut-tamarind coastal gravy.")
-curries += mk_item("Royyala Iguru", "22.99", "Semi-dry prawns cooked with curry leaves and mild chili.")
 
 curries += mk_item("Goan Fish Curry", "21.99", "Fresh fish cooked in tangy coconut-based gravy.")
 curries += mk_item("Chepala Pulusu", "21.99", "Tamarind fish stew with subtle South Indian spices.")
@@ -118,7 +117,7 @@ curries += """
     </div>
 </section>
 <section class="menu-section">
-    <h3 class="menu-category-title">Rice & Noodles</h3>
+    <h3 class="menu-category-title">Wok & Fire</h3>
     <p class="menu-category-subtitle"> Custom House Veggies (+1) / Egg (+2) / Chicken (+3) / Prawn (+4)/ Mixed(+5)</p>
     <div class="menu-grid">
 """
