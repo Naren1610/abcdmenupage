@@ -136,7 +136,7 @@ curries += """
 
 biryani = """
 <section class="menu-section">
-    <h3 class="menu-category-title">Murali Ka Zaikha</h3>
+    <h3 class="menu-category-title">Murali Ka Zaiqa</h3>
     <p class="menu-category-subtitle">The Royal Tradition</p>
     <div class="menu-grid">
 """
