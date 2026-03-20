@@ -41,8 +41,8 @@ appetizers += """
     <p class="menu-category-subtitle">A vibrant journey blending the bold spices of India with the wok-fired flavors of Chinese</p>
     <div class="menu-grid">
 """
-appetizers += mk_item("Sweet Corn Soup (Veg/Chicken)", "8.99", "Tiger prawns infused with citrus and House special Tandoori essence, kissed by fire for a perfect balance of heat, aroma, and oceanic sweetness.")
-appetizers += mk_item("Tom Yum Soup (Veg/Chicken)", "9.99", "Succulent Jumbo Prawns marinated in a vibrant basil pesto, kissed by the tandoor flame for a smoky, aromatic finish.")
+appetizers += mk_item("Sweet Corn Soup", "8.99", "Tiger prawns infused with citrus and House special Tandoori essence, kissed by fire for a perfect balance of heat, aroma, and oceanic sweetness.")
+appetizers += mk_item("Tom Yum Soup", "9.99", "Succulent Jumbo Prawns marinated in a vibrant basil pesto, kissed by the tandoor flame for a smoky, aromatic finish.")
 appetizers += mk_item("Veg Manchurian", "14.59", "Crisp vegetable balls tossed in a mildly spicy soy-garlic sauce.", veg=True)
 appetizers += mk_item("Gobi Manchurian", "14.59", "Cauliflower florets fried and coated in tangy Indo-Chinese sauce.", veg=True)
 appetizers += mk_item("Chilli Paneer", "15.99", "Soft paneer cubes sautéed with capsicum, onion, and tangy chili sauce.", veg=True, spicy=True)
