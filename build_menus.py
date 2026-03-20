@@ -157,7 +157,6 @@ biryani += mk_item("Chettinad Mutton Sukka", "18.99", "Our Chef Bala’s creatio
 biryani += mk_item("Gongura Chicken Dry", "17.59", "Succulent pieces of chicken wok-tossed with tangy gongura (sorrel leaves), infused with aromatic spices, garlic, and red chilies, finished with a smoky wok flavor for an irresistible bite.", spicy=True)
 biryani += mk_item("Mangalorean Pompano Fry", "22.59", "Pompano bathed in a beauty of spices, rested in its peace. Patiently grilled on our well-seasoned Cast-Iron.")
 biryani += mk_item("Amritsari Fried Fish", "18.99", "Iconic Street delicacy! Fish fillets marinated in carom and gram flour-based batter with our secret essence.")
-biryani += mk_item("Aaloo Tikki", "12.99", "Golden fried Potato patties infused with a twist of our aromatic house made spices, crisp on the outside and tender within.", veg=True)
 biryani += mk_item("Hyderabadi Royal Haleem", "18.59", "Basss… Khaa ke dekho! A royal delicacy slow-cooked to perfection.")
 biryani += mk_item("Marag", "18.99", "Shaan bolthe hum isko! Exquisite, rich, and flavorful soup.")
 
