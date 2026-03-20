@@ -55,39 +55,6 @@ appetizers += mk_item("Dragon Chicken", "16.99", "Wok-tossed chicken with chili,
 appetizers += """
     </div>
 </section>
-<section class="menu-section">
-    <h3 class="menu-category-title">Rice & Noodles</h3>
-    <p class="menu-category-subtitle">Veg (+1) / Egg (+2) / Chicken (+3) / Prawn (+4) / Mixed (+5)</p>
-    <div class="menu-grid">
-"""
-appetizers += mk_item("Wok fired Soft Noodles", "14.59*", "Classic stir-fried noodles with vegetables and light soy seasoning.")
-appetizers += mk_item("Schezwan Noodles", "15.59*", "Spicy noodles with a bold, exotic Sichuan peppers schezwan sauce.", spicy=True)
-appetizers += mk_item("Singapore Noodles", "16.59*", "Thin rice noodles stir-fried with curry-flavored vegetables and protein of choice.")
-appetizers += mk_item("Pad Thai", "16.59*", "Rice noodles tossed with egg, vegetables, and tamarind-infused sauce.")
-appetizers += mk_item("Flamed & Tossed Fried Rice", "14.59*", "Fragrant rice stir-fried with vegetables and house made seasonings.")
-appetizers += mk_item("Schezwan Fried Rice", "15.59*", "Lightly spice Rice with a twist of our house made schezwan sauce.", spicy=True)
-appetizers += mk_item("Chilli Garlic Fried Rice", "15.59*", "An amalgamation of our Chilli & garlic into the flame burnt wok with granular rice.", spicy=True)
-appetizers += """
-    </div>
-</section>
-<section class="menu-section">
-    <h3 class="menu-category-title">Prelude Plates</h3>
-    <p class="menu-category-subtitle">Devouring handcrafted recipes where traditional techniques meet contemporary expression</p>
-    <div class="menu-grid">
-"""
-appetizers += mk_item("Uff Uff Wings", "17.59", "When an enthusiastic Odiyan chilli meets the Spicy Telugu – We say Uff Uff.", spicy=True)
-appetizers += mk_item("Kheema Muttilu", "18.99", "Rathnamma’s Recipe - Rustic minced meat dumplings with fresh herbs, and spices, pounded together for a rich and savory bite.")
-appetizers += mk_item("Chettinad Mutton Sukka", "18.99", "Our Chef Bala’s creation – Slow roasted mutton, tossed in roasted spices, curry leaves, and black pepper in achieving a semi dry, intensely aromatic South Indian Classic.", spicy=True)
-appetizers += mk_item("Vellulli Kaaram Kodi", "17.59", "Where the culinary heritage of Kurnool meets the fiery spirit of Telangana, a bold harmony of ingredients comes together.", spicy=True)
-appetizers += mk_item("Mangalorean Pompano Fry", "22.59", "Pompano bathed in a beauty of spices, rested in its peace. Patiently grilled on our well-seasoned Cast-Iron.")
-appetizers += mk_item("Amritsari Fried Fish", "18.99", "Iconic Street delicacy! Fish fillets marinated in carom and gram flour-based batter with our secret essence.")
-appetizers += mk_item("Aaloo Tikki", "12.99", "Golden fried Potato patties infused with a twist of our aromatic house made spices, crisp on the outside and tender within.", veg=True)
-appetizers += mk_item("Hyderabadi Royal Haleem", "18.59", "Basss… Khaa ke dekho! A royal delicacy slow-cooked to perfection.")
-appetizers += mk_item("Marag", "18.99", "Shaan bolthe hum isko! Exquisite, rich, and flavorful soup.")
-
-appetizers += """
-    </div>
-</section>
 """
 
 curries = """
@@ -96,19 +63,18 @@ curries = """
     <p class="menu-category-subtitle">Vegetarian Elegance</p>
     <div class="menu-grid">
 """
-price = "14.99"
-curries += mk_item("Makhanwala Paneer Butter Masala", price, "Soft paneer cubes enveloped in a luscious tomato-butter sauce, finished with cream and delicate Indian spices.", veg=True)
-curries += mk_item("Paneer Tikka Masala", price, "Char-grilled paneer simmered in a fragrant onion-tomato masala, kissed with subtle smokiness.", veg=True)
-curries += mk_item("Paneer Lababdar", price, "Paneer cubes in a rich velvety, buttery gravy with aromatic spices and a hint of cream.", veg=True)
-curries += mk_item("Palak Paneer", price, "Fresh spinach purée cooked with paneer cubes, lightly tempered with garlic and cumin.", veg=True)
-curries += mk_item("Malai Kofta", price, "Pillowy dumplings of paneer and seasonal vegetables, floating in our lovely creamy secret spice infused, riped tomato gravy.", veg=True)
-curries += mk_item("Sarson Ka Saag", price, "Slow-cooked mustard greens with a balance of spices, rustic and comforting.", veg=True)
-curries += mk_item("Mushroom Do Pyaza", price, "Mushrooms sautéed with layers of onions and traditional masala.", veg=True)
-curries += mk_item("Mix Veg Jalfrezi", price, "Seasonal vegetables sautéed with peppers and onions in a tangy tomato masala.", veg=True)
-curries += mk_item("Dal Makhani", price, "Black lentils and kidney beans slow cooked with butter and cream for rich flavor.", veg=True)
-curries += mk_item("Dhaaba waala Tadka Dal", price, "Yellow lentils tempered with cumin, garlic, and mild spices. This is simple, but taste our recipe and go crazy!", veg=True)
-curries += mk_item("Punjabi Chole", price, "Chickpeas cooked with earthy, aromatic masalas to deliver robust and traditional flavor with every bite.", veg=True)
-curries += mk_item("Kadhi Pakora", price, "Gram flour fritters simmered in yogurt-based curry with light tempering.", veg=True)
+curries += mk_item("Makhanwala Paneer Butter Masala", "16.99", "Soft paneer cubes enveloped in a luscious tomato-butter sauce, finished with cream and delicate Indian spices.", veg=True)
+curries += mk_item("Paneer Tikka Masala", "16.99", "Char-grilled paneer simmered in a fragrant onion-tomato masala, kissed with subtle smokiness.", veg=True)
+curries += mk_item("Paneer Lababdar", "16.99", "Paneer cubes in a rich velvety, buttery gravy with aromatic spices and a hint of cream.", veg=True)
+curries += mk_item("Palak Paneer", "16.99", "Fresh spinach purée cooked with paneer cubes, lightly tempered with garlic and cumin.", veg=True)
+curries += mk_item("Malai Kofta", "17.99", "Pillowy dumplings of paneer and seasonal vegetables, floating in our lovely creamy secret spice infused, riped tomato gravy.", veg=True)
+curries += mk_item("Sarson Ka Saag", "16.99", "Slow-cooked mustard greens with a balance of spices, rustic and comforting.", veg=True)
+curries += mk_item("Mushroom Do Pyaza", "16.99", "Mushrooms sautéed with layers of onions and traditional masala.", veg=True)
+curries += mk_item("Mix Veg Jalfrezi", "16.99", "Seasonal vegetables sautéed with peppers and onions in a tangy tomato masala.", veg=True)
+curries += mk_item("Dal Makhani", "16.99", "Black lentils and kidney beans slow cooked with butter and cream for rich flavor.", veg=True)
+curries += mk_item("Dhaaba waala Tadka Dal", "15.99", "Yellow lentils tempered with cumin, garlic, and mild spices. This is simple, but taste our recipe and go crazy!", veg=True)
+curries += mk_item("Punjabi Chole", "16.99", "Chickpeas cooked with earthy, aromatic masalas to deliver robust and traditional flavor with every bite.", veg=True)
+curries += mk_item("Kadhi Pakora", "16.99", "Gram flour fritters simmered in yogurt-based curry with light tempering.", veg=True)
 curries += """
     </div>
 </section>
@@ -151,17 +117,50 @@ curries += mk_item("Orissa Dhaaba Style Rambha Chicken", price, "Regional-style 
 curries += """
     </div>
 </section>
+<section class="menu-section">
+    <h3 class="menu-category-title">Rice & Noodles</h3>
+    <p class="menu-category-subtitle"> Custom House Veggies (+1) / Egg (+2) / Chicken (+3) / Prawn (+4)/ Mixed(+5)</p>
+    <div class="menu-grid">
+"""
+curries += mk_item("Wok fired Soft Noodles", "14.59", "Classic stir-fried noodles with vegetables and light soy seasoning.")
+curries += mk_item("Schezwan Noodles", "15.59", "Spicy noodles with a bold, exotic Sichuan peppers schezwan sauce.", spicy=True)
+curries += mk_item("Singapore Noodles", "16.59", "Thin rice noodles stir-fried with curry-flavored vegetables and protein of choice.")
+curries += mk_item("Pad Thai", "16.59", "Rice noodles tossed with egg, vegetables, and tamarind-infused sauce.")
+curries += mk_item("Flamed & Tossed Fried Rice", "14.59", "Fragrant rice stir-fried with vegetables and house made seasonings.")
+curries += mk_item("Schezwan Fried Rice", "15.59", "Lightly spice Rice with a twist of our house made schezwan sauce.", spicy=True)
+curries += mk_item("Chilli Garlic Fried Rice", "15.59", "An amalgamation of our Chilli & garlic into the flame burnt wok with granular rice.", spicy=True)
+curries += """
+    </div>
+</section>
 """
 
 biryani = """
 <section class="menu-section">
-    <h3 class="menu-category-title">Hyderabadi Dum Biryani</h3>
+    <h3 class="menu-category-title">Murali Ka Zaikha</h3>
     <p class="menu-category-subtitle">The Royal Tradition</p>
     <div class="menu-grid">
 """
 biryani += mk_item("Hyderabadi Chicken Dum Biryani", "17.59", "Fragrant basmati rice layered with marinated chicken, slow-cooked in the traditional Dum style with exotic herbs and saffron.")
-biryani += mk_item("Mutton Dum Biryani", "19.59", "Tender mutton pieces marinated overnight in yogurt and spices, layered with basmati rice and slow-cooked to perfection.")
-biryani += mk_item("Veg Dum Biryani", "15.59", "A medley of fresh vegetables and paneer layered with aromatic basmati rice and cooked on dum with subtle spices.", veg=True)
+biryani += mk_item("Hyderabadi Mutton Dum Biryani", "19.59", "Tender mutton pieces marinated overnight in yogurt and spices, layered with basmati rice and slow-cooked to perfection.")
+biryani += mk_item("Veg Dum Biryani", "16.59", "A medley of fresh vegetables and paneer layered with aromatic basmati rice and cooked on dum with subtle spices.", veg=True)
+biryani += """
+    </div>
+</section>
+<section class="menu-section">
+    <h3 class="menu-category-title">Prelude Plates</h3>
+    <p class="menu-category-subtitle">Devouring handcrafted recipes where traditional techniques meet contemporary expression</p>
+    <div class="menu-grid">
+"""
+biryani += mk_item("Uff Uff Wings", "17.59", "When an enthusiastic Odiyan chilli meets the Spicy Telugu – We say Uff Uff.", spicy=True)
+biryani += mk_item("Kheema Muttilu", "18.99", "Rathnamma’s Recipe - Rustic minced meat dumplings with fresh herbs, and spices, pounded together for a rich and savory bite.")
+biryani += mk_item("Chettinad Mutton Sukka", "18.99", "Our Chef Bala’s creation – Slow roasted mutton, tossed in roasted spices, curry leaves, and black pepper in achieving a semi dry, intensely aromatic South Indian Classic.", spicy=True)
+biryani += mk_item("Gongura Chicken Dry", "17.59", "Succulent pieces of chicken wok-tossed with tangy gongura (sorrel leaves), infused with aromatic spices, garlic, and red chilies, finished with a smoky wok flavor for an irresistible bite.", spicy=True)
+biryani += mk_item("Mangalorean Pompano Fry", "22.59", "Pompano bathed in a beauty of spices, rested in its peace. Patiently grilled on our well-seasoned Cast-Iron.")
+biryani += mk_item("Amritsari Fried Fish", "18.99", "Iconic Street delicacy! Fish fillets marinated in carom and gram flour-based batter with our secret essence.")
+biryani += mk_item("Aaloo Tikki", "12.99", "Golden fried Potato patties infused with a twist of our aromatic house made spices, crisp on the outside and tender within.", veg=True)
+biryani += mk_item("Hyderabadi Royal Haleem", "18.59", "Basss… Khaa ke dekho! A royal delicacy slow-cooked to perfection.")
+biryani += mk_item("Marag", "18.99", "Shaan bolthe hum isko! Exquisite, rich, and flavorful soup.")
+
 biryani += """
     </div>
 </section>
@@ -173,11 +172,11 @@ biryani += mk_item("Plain Naan", "3.59", "Fresh and soft clay oven baked bread."
 biryani += mk_item("Handmade Tandoori Roti", "4.59", "Whole wheat bread baked in tandoor.", veg=True)
 biryani += mk_item("Butter Naan", "4.59", "Layered flatbread slathered in butter.", veg=True)
 biryani += mk_item("Laccha Paratha", "5.59", "Flaky, multi-layered whole wheat bread.", veg=True)
-biryani += mk_item("Garlic Naan", "4.59", "Infused with chopped garlic and butter.", veg=True)
+biryani += mk_item("Garlic Naan", "4.99", "Infused with chopped garlic and butter.", veg=True)
 biryani += mk_item("Paneer Paratha", "5.59", "Stuffed with spiced Indian cottage cheese.", veg=True)
-biryani += mk_item("Chilly Garlic Naan", "4.59", "Topped with spicy green chilies and garlic.", veg=True, spicy=True)
+biryani += mk_item("Chilly Garlic Naan", "5.59", "Topped with spicy green chilies and garlic.", veg=True, spicy=True)
 biryani += mk_item("Cheese Naan", "5.59", "Stuffed generously with melted cheese.", veg=True)
-biryani += mk_item("Chilly Cheese Naan", "5.59", "Naan stuffed with spicy green chilies and melted cheese.", veg=True, spicy=True)
+biryani += mk_item("Chilly Cheese Naan", "6.59", "Naan stuffed with spicy green chilies and melted cheese.", veg=True, spicy=True)
 biryani += mk_item("Bhature", "4.59", "Fluffy deep-fried leavened sourdough bread.", veg=True)
 biryani += """
     </div>
