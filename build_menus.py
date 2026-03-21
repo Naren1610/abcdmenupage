@@ -52,14 +52,13 @@ appetizers += """
     </div>
     
     <div style="text-align: center; margin-bottom: 25px;">
-        <h4 style="font-family: var(--font-heading); font-size: 1.4rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 2px;">Starters</h4>
+        <h4 style="font-family: var(--font-heading); font-size: 1.4rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 2px;">Appetizers</h4>
     </div>
     <div class="menu-grid">
 """
 appetizers += mk_item("Veg Manchurian", "14.59", "Crisp vegetable balls tossed in a mildly spicy soy-garlic sauce.", veg=True)
 appetizers += mk_item("Gobi Manchurian", "14.59", "Cauliflower florets fried and coated in tangy Indo-Chinese sauce.", veg=True)
 appetizers += mk_item("Chilli Paneer", "15.99", "Soft paneer cubes sautéed with capsicum, onion, and tangy chili sauce.", veg=True, spicy=True)
-appetizers += mk_item("Honey Chilli Potato", "15.99", "Crispy potato fingers tossed in sweet and spicy glaze.", veg=True)
 appetizers += mk_item("Hyderabadi Chicken 65", "16.59", "South-Indian style fried chicken with bold masala and curry leaf tempering.", spicy=True)
 appetizers += mk_item("Chilli Chicken", "16.59", "Juicy chicken pieces tossed with bell peppers and spicy Indo-Chinese sauce.", spicy=True)
 appetizers += mk_item("Chicken Majestic", "17.59", "Tender chicken cooked with garlic, chili, and light soy sauce.")
@@ -170,7 +169,6 @@ biryani += mk_item("Kheema Muttilu", "18.99", "Rathnamma’s Recipe - Rustic min
 biryani += mk_item("Chettinad Mutton Sukka", "18.99", "Our Chef Bala’s creation – Slow roasted mutton, tossed in roasted spices, curry leaves, and black pepper in achieving a semi dry, intensely aromatic South Indian Classic.", spicy=True)
 biryani += mk_item("Gongura Chicken Dry", "17.59", "Succulent pieces of chicken wok-tossed with tangy gongura (sorrel leaves), infused with aromatic spices, garlic, and red chilies, finished with a smoky wok flavor for an irresistible bite.", spicy=True)
 biryani += mk_item("Mangalorean Pompano Fry", "22.59", "Pompano bathed in a beauty of spices, rested in its peace. Patiently grilled on our well-seasoned Cast-Iron.")
-biryani += mk_item("Amritsari Fried Fish", "18.99", "Iconic Street delicacy! Fish fillets marinated in carom and gram flour-based batter with our secret essence.")
 biryani += mk_item("Hyderabadi Royal Haleem", "18.59", "Basss… Khaa ke dekho! A royal delicacy slow-cooked to perfection.")
 biryani += mk_item("Marag", "18.99", "Shaan bolthe hum isko! Exquisite, rich, and flavorful soup.")
 
