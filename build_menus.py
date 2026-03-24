@@ -46,8 +46,8 @@ appetizers += """
     </div>
     <div class="menu-grid" style="margin-bottom: 40px;">
 """
-appetizers += mk_item("Sweet Corn Soup", "8.99", "Tiger prawns infused with citrus and House special Tandoori essence, kissed by fire for a perfect balance of heat, aroma, and oceanic sweetness.")
-appetizers += mk_item("Tom Yum Soup", "9.99", "Succulent Jumbo Prawns marinated in a vibrant basil pesto, kissed by the tandoor flame for a smoky, aromatic finish.")
+appetizers += mk_item("Sweet Corn Soup", "8.99", "A comforting Indo-Chinese classic — silky broth with tender sweet corn kernels, gently seasoned with ginger, garlic, and a touch of soy. Add on your choice of protein or veggies to make it a meal.")
+appetizers += mk_item("Tom Yum Soup", "9.99", "A bold, aromatic hot & sour Thai-inspired broth infused with lemongrass, galangal, kaffir lime leaves, and fiery chilies — a bright, invigorating bowl with every sip. Add on your choice of protein or veggies.")
 appetizers += """
     </div>
     
@@ -64,7 +64,6 @@ appetizers += mk_item("Chilli Chicken", "16.59", "Juicy chicken pieces tossed wi
 appetizers += mk_item("Chicken Majestic", "17.59", "Tender chicken cooked with garlic, chili, and light soy sauce.")
 appetizers += mk_item("Chicken Lollipops (Wet)", "17.59", "Crispy chicken wings coated in a glossy, spicy sauce.")
 appetizers += mk_item("Drums of Heaven", "17.59", "Crispy chicken drumettes served with house-made honey-chili glaze.")
-appetizers += mk_item("Apollo Fish", "17.59", "Lightly fried fish in tangy sweet and sour sauce.")
 appetizers += mk_item("Dragon Chicken", "16.99", "Wok-tossed chicken with chili, garlic, and hint of sesame.", spicy=True)
 appetizers += """
     </div>
