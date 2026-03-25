@@ -32,7 +32,7 @@ appetizers += mk_item("Malai Silk Murgh Kebab", "19.59", "Velvety morsels of chi
 appetizers += mk_item("Achaari Charred Wings", "18.59", "Orchard-raised wings marinated in bold pickling spices, crisped over embers to deliver a tangy, smoky, and deeply flavorful bite.", spicy=True)
 appetizers += mk_item("Artisan Ember Paneer", "17.59", "House-pressed paneer steaks enriched with a medley of spices, charred to perfection with a subtle smoky finish, paired with roasted bell peppers.", veg=True)
 appetizers += mk_item("Verdant Hariyali Paneer", "18.59", "Paneer enveloped in a vibrant blend of fresh mint, spinach, and toasted spices, offering a bright, herbaceous, and indulgent flavor experience.", veg=True)
-appetizers += mk_item("Charred Soya Chaap", "17.59", "Tender batons of delhi waala Soya chaap warmly slept in in our house special marinade, and then slowly grilled & charred in tandoor to achieve a charred exterior and succulent bite.", veg=True)
+appetizers += mk_item("Charred Soya Chaap", "17.59", "Tender batons of delhi waala Soya chaap warmly slept in our house special marinade, and then slowly grilled & charred in tandoor to achieve a charred exterior and succulent bite.", veg=True)
 appetizers += """
     </div>
 </section>
@@ -77,7 +77,7 @@ curries = """
     <div class="menu-grid">
 """
 curries += mk_item("Makhanwala Paneer Butter Masala", "16.99", "Soft paneer cubes enveloped in a luscious tomato-butter sauce, finished with cream and delicate Indian spices.", veg=True)
-curries += mk_item("Paneer Tikka Masala", "16.99", "Char-grilled paneer simmered in a fragrant onion-tomato masala, kissed with subtle smokiness.", veg=True)
+curries += mk_item("Paneer Tikka Masala", "17.99", "Tandoor Char-grilled paneer simmered in a fragrant onion-tomato masala, kissed with subtle smokiness.", veg=True)
 curries += mk_item("Paneer Lababdar", "16.99", "Paneer cubes in a rich velvety, buttery gravy with aromatic spices and a hint of cream.", veg=True)
 curries += mk_item("Palak Paneer", "16.99", "Fresh spinach purée cooked with paneer cubes, lightly tempered with garlic and cumin.", veg=True)
 curries += mk_item("Malai Kofta", "17.99", "Pillowy dumplings of paneer and seasonal vegetables, floating in our lovely creamy secret spice infused, riped tomato gravy.", veg=True)
@@ -148,13 +148,13 @@ curries += """
 
 biryani = """
 <section class="menu-section">
-    <h3 class="menu-category-title">Murali Ka Zaiqa</h3>
+    <h3 class="menu-category-title">Murli Ka Zaiqa</h3>
     <p class="menu-category-subtitle">The Royal Tradition</p>
     <div class="menu-grid">
 """
 biryani += mk_item("Hyderabadi Chicken Dum Biryani", "17.59", "Fragrant basmati rice layered with marinated chicken, slow-cooked in the traditional Dum style with exotic herbs and saffron.")
 biryani += mk_item("Hyderabadi Mutton Dum Biryani", "19.59", "Tender mutton pieces marinated overnight in yogurt and spices, layered with basmati rice and slow-cooked to perfection.")
-biryani += mk_item("Veg Dum Biryani", "16.59", "A medley of fresh vegetables and paneer layered with aromatic basmati rice and cooked on dum with subtle spices.", veg=True)
+biryani += mk_item("Hyderabadi Veg Dum Biryani", "16.59", "A medley of fresh vegetables and paneer layered with aromatic basmati rice and cooked on dum with subtle spices.", veg=True)
 biryani += """
     </div>
 </section>
@@ -170,6 +170,7 @@ biryani += mk_item("Gongura Chicken Dry", "17.59", "Succulent pieces of chicken 
 biryani += mk_item("Mangalorean Pompano Fry", "22.59", "Pompano bathed in a beauty of spices, rested in its peace. Patiently grilled on our well-seasoned Cast-Iron.")
 biryani += mk_item("Hyderabadi Royal Haleem", "18.59", "Basss… Khaa ke dekho! A royal delicacy slow-cooked to perfection.")
 biryani += mk_item("Marag", "18.99", "Shaan bolthe hum isko! Exquisite, rich, and flavorful soup.")
+biryani += mk_item("Charminar ka Paaya", "18.99", "A slow-cooked Hyderabadi treasure — tender mutton trotters simmered for hours with house spices, ginger, and bone marrow to yield a deeply rich, gelatinous gravy that warms the soul. A legendary heritage dish, best savored with warm naan.")
 
 biryani += """
     </div>
