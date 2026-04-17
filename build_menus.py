@@ -156,6 +156,7 @@ biryani += mk_item("Hyderabadi Chicken Dum Biryani", "17.59", "Fragrant basmati 
 biryani += mk_item("Vijayawada Boneless Chicken Biryani", "18.59", "Tender boneless chicken marinated in a bold Andhra spice blend, layered over fragrant basmati rice cooked with whole spices, fresh mint, and coriander — rich, fiery, and deeply satisfying.", spicy=True)
 biryani += mk_item("Hyderabadi Mutton Dum Biryani", "19.59", "Tender mutton pieces marinated overnight in yogurt and spices, layered with basmati rice and slow-cooked to perfection.")
 biryani += mk_item("Vijayawada Style Veg Biryani", "18.59", "A medley of fresh vegetables and paneer layered with aromatic basmati rice and cooked with subtle spices.", veg=True)
+biryani += mk_item("Hyderabadi Veg Dum Biryani", "16.59", "A medley of fresh vegetables layered with aromatic basmati rice and dum cooked with subtle spices (No Paneer).", veg=True)
 biryani += """
     </div>
 </section>
