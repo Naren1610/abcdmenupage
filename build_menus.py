@@ -203,6 +203,9 @@ desserts = """
 """
 desserts += mk_item("Misti Doi", "8.99", "Traditional Bengali sweet yogurt, slow-cooked to caramelized perfection.", veg=True)
 desserts += mk_item("Gulab Jamun", "6.99", "Classic warm golden dumplings resting in rose-scented syrup, served hot.", veg=True)
+desserts += mk_item("Tropical Pina Colada Tres Leches", "9.99", "A luscious tres leches cake infused with pineapple and coconut, delivering a creamy tropical finish in every bite.", veg=True)
+desserts += mk_item("Decadent Chocolate Mousse Brownie", "8.99", "Rich fudgy brownie layered with silky chocolate mousse for an indulgent, deeply satisfying dessert experience.", veg=True)
+desserts += mk_item("Custard Caramel Devour Puff", "9.99", "Delicate pastry filled with velvety custard, finished with golden caramel for a light yet irresistible treat.", veg=True)
 desserts += """
     </div>
 </section>
