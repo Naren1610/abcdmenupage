@@ -1,10 +1,11 @@
 import os
 import re
 
-def mk_item(name, price, desc, veg=False, spicy=False):
+def mk_item(name, price, desc="", veg=False, spicy=False):
     markers = ""
     if veg: markers += '<span class="indicator veg" title="Vegetarian">V</span> '
     if spicy: markers += '<span class="indicator spicy" title="Spicy">S</span> '
+    desc_html = f'\n            <p class="item-desc">{desc.strip()}</p>' if desc.strip() else ""
     return f'''
         <article class="menu-item-card scroll-reveal">
             <div class="item-header">
@@ -13,8 +14,7 @@ def mk_item(name, price, desc, veg=False, spicy=False):
                 </div>
                 <div class="item-leader"></div>
                 <span class="item-price">{price.strip()}</span>
-            </div>
-            <p class="item-desc">{desc.strip()}</p>
+            </div>{desc_html}
         </article>'''
 
 appetizers = """
@@ -198,25 +198,22 @@ biryani += """
 
 desserts = """
 <section class="menu-section">
-    <h3 class="menu-category-title">Sweet Endings</h3>
-    <p class="menu-category-subtitle">Decadent indulgence to complete your journey</p>
+    <h3 class="menu-category-title">Desserts</h3>
     <div class="menu-grid">
 """
-desserts += mk_item("Saffron Malai Rasmalai", "7.99", "Pillowy cottage cheese discs soaked in sweetened, thickened milk delicately flavored with saffron and cardamom.", veg=True)
-desserts += mk_item("Gulab Jamun Flambé", "6.99", "Classic warm golden dumplings resting in rose-scented syrup, served hot.", veg=True)
-desserts += mk_item("Mango Pistachio Kulfi", "8.99", "Traditional dense Indian ice cream infused with Alphonso mango and crushed pistachios.", veg=True)
-desserts += mk_item("Shahi Tukda", "8.99", "Royal Awadhi dessert of fried bread soaked in saffron syrup and topped with rich rabdi.", veg=True)
+desserts += mk_item("Misti Doi", "8.99", "Traditional Bengali sweet yogurt, slow-cooked to caramelized perfection.", veg=True)
+desserts += mk_item("Gulab Jamun", "6.99", "Classic warm golden dumplings resting in rose-scented syrup, served hot.", veg=True)
 desserts += """
     </div>
 </section>
 <section class="menu-section">
-    <h3 class="menu-category-title">Crafted Beverages</h3>
-    <p class="menu-category-subtitle">Refreshing accompaniments</p>
+    <h3 class="menu-category-title">Drinks</h3>
     <div class="menu-grid">
 """
-desserts += mk_item("Mango Lassi", "5.99", "Creamy yogurt drink blended with sweet Alphonso mangoes and a hint of cardamom.", veg=True)
-desserts += mk_item("Rose Sharbat", "4.99", "Cooling rose-infused syrup stirred into chilled milk or water.", veg=True)
-desserts += mk_item("Masala Chai", "3.99", "Our signature brew of black tea, ginger, cardamom, and Indian spices.", veg=True)
+desserts += mk_item("Mango Lassi", "5.59", "", veg=True)
+desserts += mk_item("Thumps up", "3.99", "")
+desserts += mk_item("Limca", "3.99", "")
+desserts += mk_item("Jeera", "3.59", "")
 desserts += """
     </div>
 </section>
