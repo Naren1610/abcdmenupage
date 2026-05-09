@@ -170,9 +170,8 @@ biryani += mk_item("Kheema Muttilu", "18.99", "Rathnamma’s Recipe - Rustic min
 biryani += mk_item("Chettinad Mutton Sukka", "18.99", "Our Chef Bala’s creation – Slow roasted mutton, tossed in roasted spices, curry leaves, and black pepper in achieving a semi dry, intensely aromatic South Indian Classic.", spicy=True)
 biryani += mk_item("Gongura Chicken Dry", "17.59", "Succulent pieces of chicken wok-tossed with tangy gongura (sorrel leaves), infused with aromatic spices, garlic, and red chilies, finished with a smoky wok flavor for an irresistible bite.", spicy=True)
 biryani += mk_item("Mangalorean Pompano Fry", "22.59", "Pompano bathed in a beauty of spices, rested in its peace. Patiently grilled on our well-seasoned Cast-Iron.")
-biryani += mk_item("Hyderabadi Royal Haleem", "18.59", "Basss… Khaa ke dekho! A royal delicacy slow-cooked to perfection.")
 biryani += mk_item("Marag", "18.99", "Shaan bolthe hum isko! Exquisite, rich, and flavorful soup.")
-biryani += mk_item("Charminar ka Paaya", "18.99", "A slow-cooked Hyderabadi treasure — tender mutton trotters simmered for hours with house spices, ginger, and bone marrow to yield a deeply rich, gelatinous gravy that warms the soul. A legendary heritage dish, best savored with warm naan.")
+
 
 biryani += """
     </div>
