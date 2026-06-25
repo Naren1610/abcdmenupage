@@ -103,14 +103,12 @@ curries += mk_item("Telangana Dhaavath Mutton Curry", price, "Rustic, slow-cooke
 curries += mk_item("Munakkaya Mutton", price, "Mutton and drumstick pods in a lightly spiced, hearty gravy, offering layered flavors and depth.")
 curries += mk_item("Mutton Vindaloo", price, "Tangy Goan-style curry with a gentle heat, balancing spices and vinegar notes for a bold yet refined taste.", spicy=True)
 curries += mk_item("Saag Gosht", price, "Succulent mutton slow-cooked with fresh spinach, delivering an earthy, aromatic, and tender curry.")
-curries += mk_item("Nilgiri Mutton Kofta", price, "Hand-rolled mutton dumplings in our signature spiced green herb sauce, delicate yet flavorful.")
 curries += mk_item("Kheema Matar", "19.99", "Minced mutton cooked with peas in lightly spiced masala.")
-curries += mk_item("Kheema Mutti Curry", "19.99", "Home made kheema balls, served in our aromatic southern spiced sauce.")
 
 curries += mk_item("Goan Prawn Curry", "22.99", "Prawns simmered in coconut-tamarind coastal gravy.")
 
 curries += mk_item("Goan Fish Curry", "21.99", "Fresh fish cooked in tangy coconut-based gravy.")
-curries += mk_item("Chepala Pulusu", "21.99", "Tamarind fish stew with subtle South Indian spices.")
+
 
 curries += mk_item("Punjabi Dhaaba waala Anda Masala", "16.99", "Boiled eggs simmered in light onion-tomato masala.")
 
@@ -123,7 +121,7 @@ curries += mk_item("Chicken Tikka Masala", price, "Grilled chicken in spiced tom
 curries += mk_item("Chicken Vindaloo", price, "Spicy and tangy Goan chicken curry.", spicy=True)
 curries += mk_item("Andhra Home made Chicken Curry", price, "Bone-In Chicken cooked with regional spices for balanced heat.", spicy=True)
 curries += mk_item("Ginger Chicken", price, "Old Hyderabadi waala Chicken simmered in a crazy gravy of fresh ginger, green chili.")
-curries += mk_item("Hyderabadi Dum Chicken", price, "Slow-cooked chicken sealed with aromatic spices.")
+
 curries += mk_item("Orissa Dhaaba Style Rambha Chicken", price, "Regional-style chicken curry with secret sauce and spices.")
 
 curries += """
@@ -168,9 +166,7 @@ biryani += """
 biryani += mk_item("Uff Uff Wings", "17.59", "When an enthusiastic Odiyan chilli meets the Spicy Telugu – We say Uff Uff.", spicy=True)
 biryani += mk_item("Kheema Muttilu", "18.99", "Rathnamma’s Recipe - Rustic minced meat dumplings with fresh herbs, and spices, pounded together for a rich and savory bite.")
 biryani += mk_item("Chettinad Mutton Sukka", "18.99", "Our Chef Bala’s creation – Slow roasted mutton, tossed in roasted spices, curry leaves, and black pepper in achieving a semi dry, intensely aromatic South Indian Classic.", spicy=True)
-biryani += mk_item("Gongura Chicken Dry", "17.59", "Succulent pieces of chicken wok-tossed with tangy gongura (sorrel leaves), infused with aromatic spices, garlic, and red chilies, finished with a smoky wok flavor for an irresistible bite.", spicy=True)
 biryani += mk_item("Mangalorean Pompano Fry", "22.59", "Pompano bathed in a beauty of spices, rested in its peace. Patiently grilled on our well-seasoned Cast-Iron.")
-biryani += mk_item("Marag", "18.99", "Shaan bolthe hum isko! Exquisite, rich, and flavorful soup.")
 
 
 biryani += """
@@ -202,9 +198,7 @@ desserts = """
 """
 desserts += mk_item("Misti Doi", "8.99", "Traditional Bengali sweet yogurt, slow-cooked to caramelized perfection.", veg=True)
 desserts += mk_item("Gulab Jamun", "6.99", "Classic warm golden dumplings resting in rose-scented syrup, served hot.", veg=True)
-desserts += mk_item("Tropical Pina Colada Tres Leches", "9.99", "A luscious tres leches cake infused with pineapple and coconut, delivering a creamy tropical finish in every bite.", veg=True)
-desserts += mk_item("Decadent Chocolate Mousse Brownie", "8.99", "Rich fudgy brownie layered with silky chocolate mousse for an indulgent, deeply satisfying dessert experience.", veg=True)
-desserts += mk_item("Custard Caramel Devour Puff", "9.99", "Delicate pastry filled with velvety custard, finished with golden caramel for a light yet irresistible treat.", veg=True)
+
 desserts += """
     </div>
 </section>

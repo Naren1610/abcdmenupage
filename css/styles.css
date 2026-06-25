@@ -665,3 +665,59 @@ body.page-exiting {
     filter: grayscale(1);
     text-shadow: none;
 }
+
+/* =========================================
+   Tooltip Guide
+   ========================================= */
+.instruction-tooltip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 170, 0, 0.1);
+    border: 1px solid rgba(255, 170, 0, 0.3);
+    padding: 8px 16px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(255, 170, 0, 0.15);
+    animation: floatingTooltip 3s ease-in-out infinite;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.instruction-tooltip::after {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 7px 7px 0;
+    border-style: solid;
+    border-color: rgba(255, 170, 0, 0.4) transparent transparent transparent;
+}
+
+.pulse-dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--color-primary);
+    animation: pulseDot 1.5s infinite;
+}
+
+.instruction-tooltip .instruction {
+    margin: 0;
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    animation: none;
+    text-shadow: none;
+}
+
+@keyframes floatingTooltip {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+@keyframes pulseDot {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 170, 0, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(255, 170, 0, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 170, 0, 0); }
+}
